@@ -5,9 +5,8 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
-"require": {
+    "require": {
         "php": "^8.2",
-        "ext-pdo_mysql": "*",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1"
     },
@@ -72,7 +71,7 @@
             "dont-discover": []
         }
     },
-"config": {
+    "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
